@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 数据(体积大,不入库) ----
+data/
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# ---- 运行产物 ----
+outputs/
+logs/
+*.log
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
